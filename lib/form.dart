@@ -245,6 +245,10 @@ class _MyFormPageState extends State<MyFormPage> {
                                             Text('Jenjang: Doktor'),
                                           Text('Umur: ${umur}'),
                                           Text('Kelas: ${kelasPBP}'),
+                                          if (_nilaiSwitch) 
+                                            Text('Practice mode on')
+                                          else
+                                            Text('Practice mode off')
                                         ],
                                       ),
                                     ),
